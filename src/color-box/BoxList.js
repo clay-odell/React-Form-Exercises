@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import NewBoxForm from './NewBoxForm';
 import Box from './Box';
+import './BoxList.css';
 
 const BoxList = () => {
     const [boxes, setBoxes] = useState([]);
@@ -15,6 +16,7 @@ const BoxList = () => {
 
     return (
         <div>
+            <h1>Color Box Form</h1>
             <NewBoxForm addBox={addBox} />
             {boxes.map((box) => (
                 <Box

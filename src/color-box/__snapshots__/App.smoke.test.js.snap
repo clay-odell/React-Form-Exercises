@@ -47,5 +47,23 @@ exports[`matches snapshot 1`] = `
       </button>
     </form>
   </div>
+  <div>
+    <h1>
+      New Todo Form
+    </h1>
+    <form>
+      <input
+        placeholder="Enter a new todo"
+        type="text"
+        value=""
+      />
+      <button
+        type="submit"
+      >
+        Add
+      </button>
+    </form>
+    <div />
+  </div>
 </DocumentFragment>
 `;
